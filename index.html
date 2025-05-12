@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	 <title>cv</title>
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+                 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+                <link rel="stylesheet" type="text/css" href="../style.css" />
+                <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+ </head>
+   <body>
+
+    <div class="home">
+      <h1>CV</h1>
+
+      <div class="row">
+        <div class="block"></div>
+        <div class="text">
+          <h2>Ilya Kovalov</h2>
+          <h3>web dev</h3>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="projects">
+   <h1>PROJECTS\</h1>
+  <p>Hover and Select</p>
+       <div class="cards">
+        <a href="https://hubilya.github.io/NCrypted/">
+                <div class="card">
+          <div class="card-content">
+            <i class="cf cf-btc"></i>   
+          <h2>NCrypted</h2>
+          </div>
+        </div>
+      </a>
+      <a href="https://hubilya.github.io/test-3d/">
+        <div class="card">
+          <div class="card-content">
+            <i class="cf cf-spd"></i>  
+            
+            <h2>3D Planet</h2>
+          </div>
+        </div>
+      </a>
+      <a href="https://hubilya.github.io/Website/">
+        <div class="card">
+          <div class="card-content">
+            <i class="cf cf-algo"></i>
+            <h2>Lazar</h2>
+          </div>
+        </div>
+      </a>
+      <a href="https://hubilya.github.io/miltech/">
+        <div class="card">
+          <div class="card-content">
+            <i><img src="chevron.png"></i>
+            <h2>Miltech Site</h2>
+          </div>
+        </div>
+      </a>
+      <a href="https://hubilya.github.io/CatchMe/">
+        <div class="card">
+          <div class="card-content">
+            <i class="cf cf-atl"></i>
+            <h2>Catch me</h2>
+          </div>
+        </div>
+        </a>
+        <div class="card">
+          <div class="card-content">
+            <i><img src="empty.png"></i>
+            <h2>[empty slot]</h2>
+          </div>
+        </div>
+    
+        <div class="card">
+          <div class="card-content">
+            <i><img src="empty.png"></i>
+            <h2>[empty slot]</h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <i><img src="empty.png"></i>
+            <h2>[empty slot]</h2>
+          </div>
+        </div>
+    
+     
+       
+      </div>
+    </div>
+<style>
+
+body {
+  margin: 0;
+  height: 100vh;
+  /* display: grid;
+  place-items: center;
+  background: #000; */
+  color: #fff;
+  
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+.home{
+  
+  padding-left:20%;
+  background-color:#000;
+  height:100%;
+  align-content:center ;
+  align-items:  center;
+  background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+
+}
+.row{
+display: flex;
+padding-left:2%;
+}
+.block{
+  width:15px;
+  height:70px;
+  background-color:#b99009;
+  margin-right:1%;
+}
+.home h1{
+  color:#fff;
+  font-size:300px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin:0;
+
+font-weight: 400;
+}
+
+
+.home h2{
+  color:#fff;
+  font-size:30px;
+  font-weight:200;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin:0;
+letter-spacing: 0.2em;
+}
+.home h3{
+  color:#fff;
+  font-size:20px;
+  font-family:Stick No Bills;
+margin:0;
+font-weight:200;
+letter-spacing: 0.2em;
+}
+
+.projects{
+  display: grid;
+  place-items: center;
+  background: #000;
+}
+
+.projects h1 { 
+  padding-top:1em;
+font-size:25px;
+color:#f403e0;
+padding-right:50%;
+outline:none;
+animation: animate 8s linear infinite;
+ position:relative; 
+font-family:Tilt Neon;
+
+
+}
+
+p{
+  font-weight:100;
+  font-size:20px;
+  font-family:Stick No Bills;
+  letter-spacing: 0.2em;
+}
+@keyframes animate{
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+    color:#3b3f41;
+    text-shadow:none;
+  }
+  18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+    color:#fff;
+    text-shadow: 0 0 10px #f0f403,
+    0 0 20px #f0f403,
+    0 0 30px #f0f403,
+    0 0 80px #f0f403,
+    0 0 160px #f0f403;
+  }
+} 
+.cards {
+  
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(2, 150px);
+  gap: 38px;
+
+  padding: 32px;
+  padding-bottom:6%;
+  padding-top:5%;
+}
+a{
+  text-decoration:none;
+  color:#fff;
+ gap: 38px;
+ display: grid;
+  
+  
+}
+.cards:hover .card {
+  background: radial-gradient(
+    700px circle at var(--xPos) var(--yPos),
+    rgb(159, 161, 3),
+    transparent 15%
+  );
+}
+
+.card {
+    
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    500px circle at 0 0,
+    rgba(9, 128, 158, 0)
+    transparent 0%
+  );
+  border-radius: 8px;
+  transition: 0.15s;
+}
+
+.cards .card:hover::before {
+  opacity: 0;
+}
+
+/* .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    500px circle at var(--xPos) var(--yPos),
+    rgba(4, 155, 147, 0.9),
+    transparent 35%
+  );
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+} */
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background: #000;
+  border-radius: inherit;
+  transition: all 0.25s;
+  height: calc(100% - 2px);
+  width: calc(100% - 2px);
+  opacity:1;
+}
+
+.card :is(i, h2) {
+  opacity: 0.1;
+  transition: 0.5s;
+
+}
+
+.card:hover :is(i, h2) {
+  opacity: 1;
+}
+
+.card i {
+  font-size: 38px;
+}
+
+.card h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+@media screen and (max-width:800px) 
+{
+  .home{
+  
+  padding-left:8%;
+ 
+
+}
+  .cards{
+  display: grid;
+  grid-template-columns: repeat(2, 130px);
+  grid-template-rows: repeat(4, 130px);
+  
+  }
+  .card :is(i, h2) {
+  opacity: 0.5;
+  transition: 0.5s;
+
+}
+}
+
+     </style>
+    
+   <script 
+    src="script.js"
+    type="text/javascript"></script>
+ </body>
+</html>
